@@ -24,4 +24,6 @@ func JSON(w http.ResponseWriter, statusCode int, data interface{}) error {
 
 	// Write response
 	w.Write(body)
+
+	return nil
 }
